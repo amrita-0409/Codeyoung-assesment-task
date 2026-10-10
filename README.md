@@ -4,7 +4,7 @@ A robust, enterprise-ready full-stack demo class booking platform engineered spe
 
 ---
 
-## 🚀 Key Architectural Features
+##  Key Architectural Features
 
 *   **Role-Based Access Control (RBAC):** Distinct dashboards customized for Parents, Mentors, and Admins. It includes an inline evaluator bypass dropdown to switch roles instantly without complex sign-up sheets.
 *   **Daylight Savings Time (DST) & Timezone Engine:** Powered by Luxon to store all schedule slots in canonical UTC format inside the database. It converts time dynamically on the UI based on browser local settings, seamlessly handling US (EST/PST), UK (GMT/BST), and India (IST) zone changes.
@@ -15,7 +15,7 @@ A robust, enterprise-ready full-stack demo class booking platform engineered spe
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## >> Tech Stack & Dependencies
 
 *   **Frontend Ecosystem:** React.js 18, TypeScript, Vite
 *   **Styling Engine:** Tailwind CSS, Lucide React (for iconography)
@@ -25,7 +25,7 @@ A robust, enterprise-ready full-stack demo class booking platform engineered spe
 
 ---
 
-## 💻 Local Project Setup & Installation
+## >> Local Project Setup & Installation
 
 Follow these sequential steps to establish a running local environment on your computer:
 
@@ -58,7 +58,7 @@ The console will output the local network target URL, typically `http://localhos
 
 ---
 
-## 🗄️ Database Schema Blueprint
+##  Database Schema Blueprint
 
 The application relies on PostgreSQL tables initialized via Supabase migrations. The core schemas are structured as follows:
 
@@ -67,7 +67,7 @@ The application relies on PostgreSQL tables initialized via Supabase migrations.
 
 ---
 
-## 🧪 Evaluation Guide for Reviewers
+##  Evaluation Guide for Reviewers
 
 To simplify grading, use the specialized testing dashboard tools included on the interface:
 
