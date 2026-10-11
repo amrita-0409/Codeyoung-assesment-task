@@ -1,8 +1,9 @@
+ HEAD
 # Codeyoung Full-Stack Appointment-Booking System
 
 A robust, enterprise-ready full-stack demo class booking platform engineered specifically for Codeyoung's cross-continental scheduling operations. This application coordinates multi-region timezones, manages strict day-level resource allocation constraints, and provides dedicated portals for Parents, Mentors, and Administrators.
 
----
+
 
 ##  Key Architectural Features
 
@@ -13,9 +14,9 @@ A robust, enterprise-ready full-stack demo class booking platform engineered spe
 *   **10-Second Auto-Scrolling Course Banner:** A responsive top-level horizontal carousel highlighting core tracks that automatically slides forward every 10 seconds using optimized React timing cycles.
 *   **Gamified Kids Motivation & Success Showcase:** An engaging layout footer presenting successful student projects and progressive coding achievement badges to increase user interaction.
 
----
 
-## >> Tech Stack & Dependencies
+
+## Tech Stack & Dependencies
 
 *   **Frontend Ecosystem:** React.js 18, TypeScript, Vite
 *   **Styling Engine:** Tailwind CSS, Lucide React (for iconography)
@@ -23,9 +24,9 @@ A robust, enterprise-ready full-stack demo class booking platform engineered spe
 *   **Backend & Relational Database:** Supabase, PostgreSQL
 *   **State Management:** React Context API (Auth and Booking states)
 
----
 
-## >> Local Project Setup & Installation
+
+##  Local Project Setup & Installation
 
 Follow these sequential steps to establish a running local environment on your computer:
 
@@ -65,7 +66,7 @@ The application relies on PostgreSQL tables initialized via Supabase migrations.
 *   **Mentors Table:** Contains fields for ID, Name, Email, Base Timezone (defaults to 'Asia/Kolkata'), and Active Status flags.
 *   **Bookings Table:** Tracks the Unique Booking ID, Mentor ID relation, Parent ID relation, Slot DateTime (stored in UTC), Booking Date string (extracted for rapid day-level capacity validation queries), and the generated Dummy Meeting Link.
 
----
+
 
 ##  Evaluation Guide for Reviewers
 
@@ -74,4 +75,5 @@ To simplify grading, use the specialized testing dashboard tools included on the
 *   **Parent Simulation Flow:** Navigate the visual calendar wizard. Select a time slot to see it auto-convert into your local system time. Submit the booking to witness the simulated confirmation email pop up on the UI logs.
 *   **Mentor Agenda View:** Switch to the Mentor profile to see all booked times instantly grouped and converted into pure India Standard Time (IST). Observe the circular capacity ring track the daily workload.
 *   **Admin Sandbox Panel:** Utilize the "Seed Evaluator Test Data" button to fill the system tables with mock history logs immediately. Use the "Reset Capacity Ledgers" button to clear the tables and run clean edge-case tests.
+
 
